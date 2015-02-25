@@ -3,9 +3,6 @@ use Moo;
 use utf8;
 our $VERSION='0.01';
 use 5.008001;
-use AmonMooTest::DB::Schema;
-use AmonMooTest::DB;
-
 extends qw/Amon2/;
 # Enable project local mode.
 __PACKAGE__->make_local_context();
