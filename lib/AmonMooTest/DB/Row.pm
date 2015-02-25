@@ -1,7 +1,6 @@
 package AmonMooTest::DB::Row;
-use strict;
-use warnings;
+use Moo;
 use utf8;
-use parent qw(Teng::Row);
+extends qw(Teng::Row);
 
 1;

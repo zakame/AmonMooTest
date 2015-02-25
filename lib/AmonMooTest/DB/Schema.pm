@@ -1,6 +1,5 @@
 package AmonMooTest::DB::Schema;
-use strict;
-use warnings;
+use Moo;
 use utf8;
 
 use Teng::Schema::Declare;
