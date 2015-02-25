@@ -40,6 +40,10 @@ only=1
 
 [TestingAndDebugging::ProhibitNoStrict]
 allow=refs
+[TestingAndDebugging::RequireUseStrict]
+equivalent_modules = strictures Moo Moo::Role
+[TestingAndDebugging::RequireUseWarnings]
+equivalent_modules = strictures Moo Moo::Role
 
 # -------------------------------------------------------------------------
 # Security issue detection
