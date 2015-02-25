@@ -8,6 +8,7 @@ extends qw/Amon2/;
 __PACKAGE__->make_local_context();
 
 with 'AmonMooTest::Database';
+with 'AmonMooTest::Cache';
 
 1;
 __END__
