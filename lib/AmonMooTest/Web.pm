@@ -1,8 +1,7 @@
 package AmonMooTest::Web;
-use strict;
-use warnings;
+use Moo;
 use utf8;
-use parent qw/AmonMooTest Amon2::Web/;
+extends qw/AmonMooTest Amon2::Web/;
 use File::Spec;
 
 # dispatcher

@@ -1,13 +1,12 @@
 package AmonMooTest;
-use strict;
-use warnings;
+use Moo;
 use utf8;
 our $VERSION='0.01';
 use 5.008001;
 use AmonMooTest::DB::Schema;
 use AmonMooTest::DB;
 
-use parent qw/Amon2/;
+extends qw/Amon2/;
 # Enable project local mode.
 __PACKAGE__->make_local_context();
 

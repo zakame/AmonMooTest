@@ -1,6 +1,5 @@
 package AmonMooTest::Web::Dispatcher;
-use strict;
-use warnings;
+use Moo;
 use utf8;
 use Amon2::Web::Dispatcher::RouterBoom;
 

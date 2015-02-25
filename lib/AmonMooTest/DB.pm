@@ -1,8 +1,7 @@
 package AmonMooTest::DB;
-use strict;
-use warnings;
+use Moo;
 use utf8;
-use parent qw(Teng);
+extends qw(Teng);
 
 __PACKAGE__->load_plugin('Count');
 __PACKAGE__->load_plugin('Replace');
